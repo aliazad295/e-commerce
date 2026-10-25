@@ -1,0 +1,21 @@
+# React dependencies
+node_modules/
+
+# React build
+dist/
+build/
+
+# PHP Composer dependencies
+vendor/
+
+# Environment files aur secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
